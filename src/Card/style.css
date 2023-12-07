@@ -1,0 +1,55 @@
+.card {
+    box-sizing: border-box;
+    border-radius: 0.50rem;
+    border-color: black;
+    /* background-color: rgb(252, 250, 247); */
+    /* width: 40%; */
+    height: 232px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 0px 0px;
+
+}
+
+.channelDetails {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    margin-inline: 15px;
+    /* color: antiquewhite; */
+}
+
+.thumbnailDetails {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-inline: 15px;
+    /* justify-content: space-between; */
+    /* color: antiquewhite; */
+}
+
+.logo {
+    border-radius: 0.9rem;
+    height: 30px;
+    justify-content: center;
+}
+.channelName{
+    padding-left: 20px;
+}
+.image-container{
+    width: 309px;
+}
+.image {
+    height: 150px;
+    width: 100%;
+    /* object-fit: contain; */
+    margin-inline: 5px;
+}
+.vidContainer{
+    border-radius: 0.5rem;
+    border: none;
+}
+.views{
+    padding-right: 20px;
+}
